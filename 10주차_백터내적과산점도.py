@@ -17,7 +17,7 @@ print(vecprod(array([3,4,5,6]), array([1,2,3,4])))              #내적 할 두 
 def show_scatter(vec1, vec2):                                   #점으로 표현 할 두 벡터
 
     vec1 = array([1,2,3,4])                         
-    vec2 = array([2,4,3,1])
+    vec2 = array([2,4,3,2])
     plt.scatter(vec1, vec2)                                     #점으로 표현할거야
     plt.show()                                                  #표 출력 
 show_scatter([],[])                                             #함수 사용
